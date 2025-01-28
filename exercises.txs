@@ -1,0 +1,84 @@
+
+==========Ex01:==========
+
+// input
+const items = [
+  {
+    name: 'T-shirt',
+    quantity: 20,
+    colors: ['red', 'blue', 'gray'],
+  },
+  {
+    name: 'short',
+    quantity: 25,
+    colors: ['gray'],
+  },
+  {
+    name: 'pant',
+    quantity: 31,
+    colors: ['black'],
+  },
+  {
+    name: 'sweater',
+    quantity: 10,
+    colors: ['black', 'red'],
+  },
+];
+
+/* 1. find the item with the biggest quanity, output: {
+    name: 'pant',
+    quantity: 31,
+    colors: ['black'],
+  } 
+*/
+
+/*
+  2. gather items with colors
+  output: { red: ['T-shirt', 'sweater'], 'blue': ['T-shirt'], gray: ['T-shirt', 'short'], black: ['pant', 'sweater']  }
+*/
+
+==========Ex02:==========
+
+// input
+const products = [
+  {
+    name: "T-shirt",
+    quantity: 20,
+    models: {
+      value: 1,
+      color: "red",
+      size: "L",
+    },
+  },
+  {
+    name: "short",
+    quantity: 25,
+    models: {
+      value: 2,
+      color: "black",
+      size: "M",
+    },
+  },
+  {
+    name: "pant",
+    quantity: 31,
+    models: {
+      value: 3,
+      color: "gray",
+      size: "M",
+    },
+  },
+  null,
+  {
+    name: "pant",
+    quantity: 0,
+    models: {
+      value: 1,
+      color: "blue",
+      size: "M",
+    },
+  },
+];
+
+// output: [{name: 'T-shirt', color: 'red'}, {name: 'short', color: 'black'}, {name: 'pant', color: 'gray'}, {name: 'pant', color: 'blue'}]S
+
