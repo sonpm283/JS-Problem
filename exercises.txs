@@ -25,7 +25,7 @@ const items = [
   },
 ];
 
-/* 1. find the item with the biggest quanity, output: {
+/* 1. Find the item with the biggest quanity, output: {
     name: 'pant',
     quantity: 31,
     colors: ['black'],
@@ -33,7 +33,7 @@ const items = [
 */
 
 /*
-  2. gather items with colors
+  2. Gather items with colors
   output: { red: ['T-shirt', 'sweater'], 'blue': ['T-shirt'], gray: ['T-shirt', 'short'], black: ['pant', 'sweater']  }
 */
 
@@ -80,5 +80,21 @@ const products = [
   },
 ];
 
-// output: [{name: 'T-shirt', color: 'red'}, {name: 'short', color: 'black'}, {name: 'pant', color: 'gray'}, {name: 'pant', color: 'blue'}]S
+Extract product name and color
+// output: [{name: 'T-shirt', color: 'red'}, {name: 'short', color: 'black'}, {name: 'pant', color: 'gray'}, {name: 'pant', color: 'blue'}]
+
+==========Ex03:==========
+
+const marks = [
+  { name: "Tom", mark: 8 },
+  { name: "Jerry", mark: 3 },
+  null,
+  { name: "Blue", mark: 3 },
+  undefined,
+  { name: "Yellow", mark: 4 },
+];
+
+Find item by mark
+// 1. mark = 3: 
+// output: ['Jerry', 'Blue']
 
